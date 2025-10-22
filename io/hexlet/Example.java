@@ -2,9 +2,9 @@ package io.hexlet;
 
 import org.apache.commons.lang3.StringUtils;
 
-public class One {
+public class Example {
     public static void main(String[] args) {
-        Two.greeting();
-	System.out.println(StringUtils.reverse("Hexlet"));
+	var capitalizeWord = StringUtils.capitalize("hexlet");
+	System.out.println(capitalizeWord);
     }
 }
